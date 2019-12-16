@@ -1,4 +1,5 @@
-﻿using System;
+﻿# include <windows.h>
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,5 +32,14 @@ namespace Forma
             this.tableTableAdapter.Fill(this.database1DataSet.Table);
 
         }
+        private void MessageBox(object nULL, string v1, string v2, object mB_OK)
+        {
+            throw new NotImplementedException();
+        }
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox (null, L"Сохранить в панели управления!!!", L"!!!!", mB_OK);
+        }
+
     }
 }
