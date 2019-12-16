@@ -59,6 +59,7 @@
             this.отчествоTextBox = new System.Windows.Forms.TextBox();
             this.адресTextBox = new System.Windows.Forms.TextBox();
             this.дата_рожденияTextBox = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             idLabel = new System.Windows.Forms.Label();
             фамилияLabel = new System.Windows.Forms.Label();
             имяLabel = new System.Windows.Forms.Label();
@@ -317,11 +318,21 @@
             this.дата_рожденияTextBox.Size = new System.Drawing.Size(100, 22);
             this.дата_рожденияTextBox.TabIndex = 12;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 248);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(269, 190);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(idLabel);
             this.Controls.Add(this.idTextBox);
             this.Controls.Add(фамилияLabel);
@@ -373,6 +384,7 @@
         private System.Windows.Forms.TextBox отчествоTextBox;
         private System.Windows.Forms.TextBox адресTextBox;
         private System.Windows.Forms.TextBox дата_рожденияTextBox;
+        private System.Windows.Forms.Button button1;
     }
 }
 
