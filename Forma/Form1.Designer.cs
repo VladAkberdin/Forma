@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label idLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.Label фамилияLabel;
-            System.Windows.Forms.Label имяLabel;
-            System.Windows.Forms.Label отчествоLabel;
-            System.Windows.Forms.Label адресLabel;
-            System.Windows.Forms.Label дата_рожденияLabel;
+            System.Windows.Forms.Label idLabel1;
+            System.Windows.Forms.Label фамилияLabel1;
+            System.Windows.Forms.Label имяLabel1;
+            System.Windows.Forms.Label отчествоLabel1;
+            System.Windows.Forms.Label дата_рожденияLabel1;
+            System.Windows.Forms.Label адресLabel1;
             this.database1DataSet = new Forma.Database1DataSet();
             this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tableTableAdapter = new Forma.Database1DataSetTableAdapters.TableTableAdapter();
@@ -53,54 +53,30 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tableBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.idTextBox = new System.Windows.Forms.TextBox();
-            this.фамилияTextBox = new System.Windows.Forms.TextBox();
-            this.имяTextBox = new System.Windows.Forms.TextBox();
-            this.отчествоTextBox = new System.Windows.Forms.TextBox();
-            this.адресTextBox = new System.Windows.Forms.TextBox();
-            this.дата_рожденияTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            idLabel = new System.Windows.Forms.Label();
-            фамилияLabel = new System.Windows.Forms.Label();
-            имяLabel = new System.Windows.Forms.Label();
-            отчествоLabel = new System.Windows.Forms.Label();
-            адресLabel = new System.Windows.Forms.Label();
-            дата_рожденияLabel = new System.Windows.Forms.Label();
+            this.database1DataSet1 = new Forma.Database1DataSet1();
+            this.tableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.tableTableAdapter1 = new Forma.Database1DataSet1TableAdapters.TableTableAdapter();
+            this.tableAdapterManager1 = new Forma.Database1DataSet1TableAdapters.TableAdapterManager();
+            this.idTextBox1 = new System.Windows.Forms.TextBox();
+            this.фамилияTextBox1 = new System.Windows.Forms.TextBox();
+            this.имяTextBox1 = new System.Windows.Forms.TextBox();
+            this.отчествоTextBox1 = new System.Windows.Forms.TextBox();
+            this.дата_рожденияDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.адресTextBox1 = new System.Windows.Forms.TextBox();
+            idLabel1 = new System.Windows.Forms.Label();
+            фамилияLabel1 = new System.Windows.Forms.Label();
+            имяLabel1 = new System.Windows.Forms.Label();
+            отчествоLabel1 = new System.Windows.Forms.Label();
+            дата_рожденияLabel1 = new System.Windows.Forms.Label();
+            адресLabel1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingNavigator)).BeginInit();
             this.tableBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // idLabel
-            // 
-            resources.ApplyResources(idLabel, "idLabel");
-            idLabel.Name = "idLabel";
-            // 
-            // фамилияLabel
-            // 
-            resources.ApplyResources(фамилияLabel, "фамилияLabel");
-            фамилияLabel.Name = "фамилияLabel";
-            // 
-            // имяLabel
-            // 
-            resources.ApplyResources(имяLabel, "имяLabel");
-            имяLabel.Name = "имяLabel";
-            // 
-            // отчествоLabel
-            // 
-            resources.ApplyResources(отчествоLabel, "отчествоLabel");
-            отчествоLabel.Name = "отчествоLabel";
-            // 
-            // адресLabel
-            // 
-            resources.ApplyResources(адресLabel, "адресLabel");
-            адресLabel.Name = "адресLabel";
-            // 
-            // дата_рожденияLabel
-            // 
-            resources.ApplyResources(дата_рожденияLabel, "дата_рожденияLabel");
-            дата_рожденияLabel.Name = "дата_рожденияLabel";
             // 
             // database1DataSet
             // 
@@ -217,42 +193,6 @@
             this.tableBindingNavigatorSaveItem.Name = "tableBindingNavigatorSaveItem";
             this.tableBindingNavigatorSaveItem.Click += new System.EventHandler(this.TableBindingNavigatorSaveItem_Click);
             // 
-            // idTextBox
-            // 
-            resources.ApplyResources(this.idTextBox, "idTextBox");
-            this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Id", true));
-            this.idTextBox.Name = "idTextBox";
-            // 
-            // фамилияTextBox
-            // 
-            resources.ApplyResources(this.фамилияTextBox, "фамилияTextBox");
-            this.фамилияTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Фамилия", true));
-            this.фамилияTextBox.Name = "фамилияTextBox";
-            // 
-            // имяTextBox
-            // 
-            resources.ApplyResources(this.имяTextBox, "имяTextBox");
-            this.имяTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Имя", true));
-            this.имяTextBox.Name = "имяTextBox";
-            // 
-            // отчествоTextBox
-            // 
-            resources.ApplyResources(this.отчествоTextBox, "отчествоTextBox");
-            this.отчествоTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Отчество", true));
-            this.отчествоTextBox.Name = "отчествоTextBox";
-            // 
-            // адресTextBox
-            // 
-            resources.ApplyResources(this.адресTextBox, "адресTextBox");
-            this.адресTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Адрес", true));
-            this.адресTextBox.Name = "адресTextBox";
-            // 
-            // дата_рожденияTextBox
-            // 
-            resources.ApplyResources(this.дата_рожденияTextBox, "дата_рожденияTextBox");
-            this.дата_рожденияTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource, "Дата рождения", true));
-            this.дата_рожденияTextBox.Name = "дата_рожденияTextBox";
-            // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
@@ -262,23 +202,109 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // database1DataSet1
+            // 
+            this.database1DataSet1.DataSetName = "Database1DataSet1";
+            this.database1DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tableBindingSource1
+            // 
+            this.tableBindingSource1.DataMember = "Table";
+            this.tableBindingSource1.DataSource = this.database1DataSet1;
+            // 
+            // tableTableAdapter1
+            // 
+            this.tableTableAdapter1.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager1
+            // 
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.TableTableAdapter = this.tableTableAdapter1;
+            this.tableAdapterManager1.UpdateOrder = Forma.Database1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // idLabel1
+            // 
+            resources.ApplyResources(idLabel1, "idLabel1");
+            idLabel1.Name = "idLabel1";
+            // 
+            // idTextBox1
+            // 
+            resources.ApplyResources(this.idTextBox1, "idTextBox1");
+            this.idTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource1, "Id", true));
+            this.idTextBox1.Name = "idTextBox1";
+            // 
+            // фамилияLabel1
+            // 
+            resources.ApplyResources(фамилияLabel1, "фамилияLabel1");
+            фамилияLabel1.Name = "фамилияLabel1";
+            // 
+            // фамилияTextBox1
+            // 
+            resources.ApplyResources(this.фамилияTextBox1, "фамилияTextBox1");
+            this.фамилияTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource1, "Фамилия", true));
+            this.фамилияTextBox1.Name = "фамилияTextBox1";
+            // 
+            // имяLabel1
+            // 
+            resources.ApplyResources(имяLabel1, "имяLabel1");
+            имяLabel1.Name = "имяLabel1";
+            // 
+            // имяTextBox1
+            // 
+            resources.ApplyResources(this.имяTextBox1, "имяTextBox1");
+            this.имяTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource1, "Имя", true));
+            this.имяTextBox1.Name = "имяTextBox1";
+            // 
+            // отчествоLabel1
+            // 
+            resources.ApplyResources(отчествоLabel1, "отчествоLabel1");
+            отчествоLabel1.Name = "отчествоLabel1";
+            // 
+            // отчествоTextBox1
+            // 
+            resources.ApplyResources(this.отчествоTextBox1, "отчествоTextBox1");
+            this.отчествоTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource1, "Отчество", true));
+            this.отчествоTextBox1.Name = "отчествоTextBox1";
+            // 
+            // дата_рожденияLabel1
+            // 
+            resources.ApplyResources(дата_рожденияLabel1, "дата_рожденияLabel1");
+            дата_рожденияLabel1.Name = "дата_рожденияLabel1";
+            // 
+            // дата_рожденияDateTimePicker
+            // 
+            resources.ApplyResources(this.дата_рожденияDateTimePicker, "дата_рожденияDateTimePicker");
+            this.дата_рожденияDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.tableBindingSource1, "Дата рождения", true));
+            this.дата_рожденияDateTimePicker.Name = "дата_рожденияDateTimePicker";
+            // 
+            // адресLabel1
+            // 
+            resources.ApplyResources(адресLabel1, "адресLabel1");
+            адресLabel1.Name = "адресLabel1";
+            // 
+            // адресTextBox1
+            // 
+            resources.ApplyResources(this.адресTextBox1, "адресTextBox1");
+            this.адресTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tableBindingSource1, "Адрес", true));
+            this.адресTextBox1.Name = "адресTextBox1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(idLabel1);
+            this.Controls.Add(this.idTextBox1);
+            this.Controls.Add(фамилияLabel1);
+            this.Controls.Add(this.фамилияTextBox1);
+            this.Controls.Add(имяLabel1);
+            this.Controls.Add(this.имяTextBox1);
+            this.Controls.Add(отчествоLabel1);
+            this.Controls.Add(this.отчествоTextBox1);
+            this.Controls.Add(дата_рожденияLabel1);
+            this.Controls.Add(this.дата_рожденияDateTimePicker);
+            this.Controls.Add(адресLabel1);
+            this.Controls.Add(this.адресTextBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(idLabel);
-            this.Controls.Add(this.idTextBox);
-            this.Controls.Add(фамилияLabel);
-            this.Controls.Add(this.фамилияTextBox);
-            this.Controls.Add(имяLabel);
-            this.Controls.Add(this.имяTextBox);
-            this.Controls.Add(отчествоLabel);
-            this.Controls.Add(this.отчествоTextBox);
-            this.Controls.Add(адресLabel);
-            this.Controls.Add(this.адресTextBox);
-            this.Controls.Add(дата_рожденияLabel);
-            this.Controls.Add(this.дата_рожденияTextBox);
             this.Controls.Add(this.tableBindingNavigator);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -289,6 +315,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingNavigator)).EndInit();
             this.tableBindingNavigator.ResumeLayout(false);
             this.tableBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,13 +341,17 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton tableBindingNavigatorSaveItem;
-        private System.Windows.Forms.TextBox idTextBox;
-        private System.Windows.Forms.TextBox фамилияTextBox;
-        private System.Windows.Forms.TextBox имяTextBox;
-        private System.Windows.Forms.TextBox отчествоTextBox;
-        private System.Windows.Forms.TextBox адресTextBox;
-        private System.Windows.Forms.TextBox дата_рожденияTextBox;
         private System.Windows.Forms.Button button1;
+        private Database1DataSet1 database1DataSet1;
+        private System.Windows.Forms.BindingSource tableBindingSource1;
+        private Database1DataSet1TableAdapters.TableTableAdapter tableTableAdapter1;
+        private Database1DataSet1TableAdapters.TableAdapterManager tableAdapterManager1;
+        private System.Windows.Forms.TextBox idTextBox1;
+        private System.Windows.Forms.TextBox фамилияTextBox1;
+        private System.Windows.Forms.TextBox имяTextBox1;
+        private System.Windows.Forms.TextBox отчествоTextBox1;
+        private System.Windows.Forms.DateTimePicker дата_рожденияDateTimePicker;
+        private System.Windows.Forms.TextBox адресTextBox1;
     }
 }
 

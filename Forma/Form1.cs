@@ -27,6 +27,10 @@ namespace Forma
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "database1DataSet1.Table". При необходимости она может быть перемещена или удалена.
+            this.tableTableAdapter1.Fill(this.database1DataSet1.Table);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "database1DataSet1.Table". При необходимости она может быть перемещена или удалена.
+            this.tableTableAdapter1.Fill(this.database1DataSet1.Table);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "database1DataSet.Table". При необходимости она может быть перемещена или удалена.
             this.tableTableAdapter.Fill(this.database1DataSet.Table);
 

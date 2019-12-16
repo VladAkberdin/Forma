@@ -124,6 +124,9 @@
   <data name="дата_рожденияLabel.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="&gt;&gt;дата_рожденияLabel1.Name" xml:space="preserve">
+    <value>дата_рожденияLabel1</value>
+  </data>
   <data name="адресTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
@@ -136,8 +139,18 @@
   <data name="&gt;&gt;адресLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;отчествоLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="отчествоLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
   <data name="bindingNavigatorMoveNextItem.Text" xml:space="preserve">
     <value>Переместить вперед</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="дата_рожденияLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 189</value>
   </data>
   <data name="дата_рожденияTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -145,7 +158,6 @@
   <data name="&gt;&gt;отчествоLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="отчествоLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 13</value>
   </data>
@@ -163,14 +175,26 @@
   <data name="&gt;&gt;фамилияTextBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
-    <value>tableAdapterManager</value>
+  <data name="отчествоTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="дата_рожденияLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 156</value>
+  </data>
+  <data name="&gt;&gt;фамилияTextBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;имяLabel1.Name" xml:space="preserve">
+    <value>имяLabel1</value>
   </data>
   <data name="&gt;&gt;tableTableAdapter.Type" xml:space="preserve">
     <value>Forma.Database1DataSetTableAdapters.TableTableAdapter, Database1DataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="адресLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="фамилияTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="bindingNavigatorAddNewItem.Text" xml:space="preserve">
     <value>Добавить</value>
@@ -184,11 +208,29 @@
   <data name="bindingNavigatorSeparator.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
+  <data name="&gt;&gt;отчествоLabel1.Name" xml:space="preserve">
+    <value>отчествоLabel1</value>
+  </data>
   <data name="bindingNavigatorSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
+  <data name="&gt;&gt;имяTextBox1.Name" xml:space="preserve">
+    <value>имяTextBox1</value>
+  </data>
+  <data name="idTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;idLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;имяTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;bindingNavigatorMovePreviousItem.Name" xml:space="preserve">
     <value>bindingNavigatorMovePreviousItem</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorCountItem.Name" xml:space="preserve">
+    <value>bindingNavigatorCountItem</value>
   </data>
   <data name="&gt;&gt;idTextBox.Name" xml:space="preserve">
     <value>idTextBox</value>
@@ -196,14 +238,17 @@
   <data name="bindingNavigatorPositionItem.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="&gt;&gt;адресLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;bindingNavigatorDeleteItem.Name" xml:space="preserve">
     <value>bindingNavigatorDeleteItem</value>
   </data>
   <data name="адресTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 158</value>
   </data>
-  <data name="&gt;&gt;tableBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;idTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorSeparator2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -211,14 +256,20 @@
   <data name="&gt;&gt;tableBindingNavigator.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingNavigator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="дата_рожденияLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 13</value>
+  <data name="&gt;&gt;tableBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="фамилияLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorPositionItem.Name" xml:space="preserve">
     <value>bindingNavigatorPositionItem</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 190</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet1.Name" xml:space="preserve">
+    <value>database1DataSet1</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorSeparator2.Name" xml:space="preserve">
     <value>bindingNavigatorSeparator2</value>
@@ -232,11 +283,14 @@
   <data name="button1.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
+  <data name="&gt;&gt;фамилияLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;idTextBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;фамилияTextBox.Name" xml:space="preserve">
-    <value>фамилияTextBox</value>
+  <data name="имяLabel.Text" xml:space="preserve">
+    <value>Имя:</value>
   </data>
   <data name="idLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 49</value>
@@ -250,6 +304,9 @@
   <data name="bindingNavigatorPositionItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
+  <data name="&gt;&gt;дата_рожденияLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="bindingNavigatorMoveFirstItem.Text" xml:space="preserve">
     <value>Переместить в начало</value>
   </data>
@@ -259,11 +316,20 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <data name="имяTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
   <data name="&gt;&gt;адресLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bindingNavigatorDeleteItem.Text" xml:space="preserve">
     <value>Удалить</value>
+  </data>
+  <data name="&gt;&gt;имяLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;адресTextBox.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -271,20 +337,26 @@
   <data name="фамилияLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="idTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
-  </data>
   <data name="&gt;&gt;bindingNavigatorDeleteItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;фамилияTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="отчествоTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 130</value>
+  </data>
+  <data name="&gt;&gt;отчествоLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;отчествоLabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="bindingNavigatorPositionItem.ToolTipText" xml:space="preserve">
     <value>Текущее положение</value>
+  </data>
+  <data name="&gt;&gt;дата_рожденияDateTimePicker.Name" xml:space="preserve">
+    <value>дата_рожденияDateTimePicker</value>
   </data>
   <data name="bindingNavigatorMovePreviousItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -304,11 +376,17 @@
   <data name="&gt;&gt;дата_рожденияLabel.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="tableBindingNavigator.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;фамилияTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableBindingNavigator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 25</value>
   </data>
   <data name="&gt;&gt;дата_рожденияTextBox.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;адресTextBox1.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;имяLabel.Name" xml:space="preserve">
     <value>имяLabel</value>
@@ -328,8 +406,17 @@
         bO+G80MFwKUTxgfgcO/b8D9IpXoFiiMDHIQm0skAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="&gt;&gt;фамилияTextBox1.Name" xml:space="preserve">
+    <value>фамилияTextBox1</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorPositionItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;отчествоTextBox.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="отчествоLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorAddNewItem.Name" xml:space="preserve">
     <value>bindingNavigatorAddNewItem</value>
@@ -337,17 +424,29 @@
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;idTextBox1.Name" xml:space="preserve">
+    <value>idTextBox1</value>
+  </data>
   <data name="&gt;&gt;bindingNavigatorMoveLastItem.Name" xml:space="preserve">
     <value>bindingNavigatorMoveLastItem</value>
   </data>
   <data name="имяLabel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;фамилияLabel1.Name" xml:space="preserve">
+    <value>фамилияLabel1</value>
+  </data>
   <data name="&gt;&gt;tableBindingNavigatorSaveItem.Name" xml:space="preserve">
     <value>tableBindingNavigatorSaveItem</value>
   </data>
   <data name="bindingNavigatorPositionItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
+  </data>
+  <data name="&gt;&gt;дата_рожденияLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;дата_рожденияDateTimePicker.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="адресLabel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -363,8 +462,11 @@
         8l/FYwIYQ4UGBWBgAAC+0b+zuQxOnAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="отчествоLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="дата_рожденияLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet1.Type" xml:space="preserve">
+    <value>Forma.Database1DataSet1, Database1DataSet11.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;idTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -378,8 +480,17 @@
   <data name="bindingNavigatorMoveLastItem.Text" xml:space="preserve">
     <value>Переместить в конец</value>
   </data>
-  <data name="tableBindingNavigator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 25</value>
+  <data name="&gt;&gt;фамилияTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;idTextBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;фамилияLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="idLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;фамилияLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -393,8 +504,11 @@
   <data name="idTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="отчествоLabel.Text" xml:space="preserve">
-    <value>Отчество:</value>
+  <data name="&gt;&gt;адресTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableTableAdapter1.Type" xml:space="preserve">
+    <value>Forma.Database1DataSet1TableAdapters.TableTableAdapter, Database1DataSet11.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="имяLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 13</value>
@@ -402,11 +516,17 @@
   <data name="idLabel.Text" xml:space="preserve">
     <value>Id:</value>
   </data>
+  <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
+    <value>tableAdapterManager</value>
+  </data>
   <data name="&gt;&gt;idLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;фамилияLabel.Name" xml:space="preserve">
     <value>фамилияLabel</value>
+  </data>
+  <data name="bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="bindingNavigatorCountItem.ToolTipText" xml:space="preserve">
     <value>Общее число элементов</value>
@@ -414,23 +534,38 @@
   <data name="&gt;&gt;имяTextBox.Name" xml:space="preserve">
     <value>имяTextBox</value>
   </data>
+  <data name="имяLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 99</value>
+  </data>
   <data name="&gt;&gt;дата_рожденияTextBox.Name" xml:space="preserve">
     <value>дата_рожденияTextBox</value>
   </data>
   <data name="&gt;&gt;tableBindingNavigatorSaveItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="фамилияLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
+  <data name="&gt;&gt;адресLabel1.Name" xml:space="preserve">
+    <value>адресLabel1</value>
   </data>
-  <data name="bindingNavigatorMoveLastItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="отчествоTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;фамилияTextBox.Name" xml:space="preserve">
+    <value>фамилияTextBox</value>
+  </data>
+  <data name="&gt;&gt;tableBindingSource1.Name" xml:space="preserve">
+    <value>tableBindingSource1</value>
+  </data>
+  <data name="&gt;&gt;фамилияLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bindingNavigatorPositionItem.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;дата_рожденияTextBox.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="&gt;&gt;idLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="bindingNavigatorCountItem.Text" xml:space="preserve">
     <value>для {0}</value>
@@ -447,11 +582,14 @@
   <data name="tableBindingNavigator.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;idLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;адресTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="имяLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 105</value>
+  </data>
+  <data name="&gt;&gt;адресTextBox1.Name" xml:space="preserve">
+    <value>адресTextBox1</value>
   </data>
   <data name="&gt;&gt;отчествоTextBox.Name" xml:space="preserve">
     <value>отчествоTextBox</value>
@@ -462,14 +600,23 @@
   <data name="bindingNavigatorMovePreviousItem.Text" xml:space="preserve">
     <value>Переместить назад</value>
   </data>
-  <data name="idLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 13</value>
+  <data name="&gt;&gt;отчествоTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="дата_рожденияTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 186</value>
   </data>
+  <data name="отчествоTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 124</value>
+  </data>
   <data name="&gt;&gt;адресTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="отчествоLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 127</value>
+  </data>
+  <data name="&gt;&gt;дата_рожденияLabel1.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;дата_рожденияTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -477,14 +624,23 @@
   <data name="имяTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;имяLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="bindingNavigatorDeleteItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;idLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;tableBindingNavigator.Name" xml:space="preserve">
     <value>tableBindingNavigator</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorAddNewItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;отчествоTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;отчествоLabel.Name" xml:space="preserve">
     <value>отчествоLabel</value>
@@ -495,11 +651,17 @@
   <data name="&gt;&gt;idTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="адресLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;bindingNavigatorSeparator1.Name" xml:space="preserve">
     <value>bindingNavigatorSeparator1</value>
   </data>
   <data name="tableBindingNavigator.Text" xml:space="preserve">
     <value>bindingNavigator1</value>
+  </data>
+  <data name="дата_рожденияDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 152</value>
   </data>
   <data name="&gt;&gt;дата_рожденияLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -508,13 +670,22 @@
     <value>tableBindingSource</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>12</value>
   </data>
-  <data name="bindingNavigatorAddNewItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="дата_рожденияLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMovePreviousItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="адресTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;отчествоTextBox1.Name" xml:space="preserve">
+    <value>отчествоTextBox1</value>
   </data>
   <data name="&gt;&gt;отчествоLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -522,11 +693,17 @@
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="tableBindingNavigator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
   <data name="адресLabel.Text" xml:space="preserve">
     <value>Адрес:</value>
   </data>
-  <data name="отчествоTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+  <data name="&gt;&gt;адресLabel1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="дата_рожденияDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
   </data>
   <data name="&gt;&gt;tableBindingNavigator.Parent" xml:space="preserve">
     <value>$this</value>
@@ -537,11 +714,17 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;имяTextBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="&gt;&gt;bindingNavigatorSeparator1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;database1DataSet.Name" xml:space="preserve">
     <value>database1DataSet</value>
+  </data>
+  <data name="&gt;&gt;имяLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="отчествоLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -549,8 +732,11 @@
   <data name="&gt;&gt;адресLabel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 248</value>
+  </data>
+  <data name="&gt;&gt;tableBindingSource1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
@@ -579,8 +765,17 @@
   <data name="фамилияTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 74</value>
   </data>
+  <data name="&gt;&gt;tableTableAdapter1.Name" xml:space="preserve">
+    <value>tableTableAdapter1</value>
+  </data>
   <data name="bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="idTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 40</value>
+  </data>
+  <data name="bindingNavigatorAddNewItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="bindingNavigatorSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
@@ -591,8 +786,17 @@
   <data name="&gt;&gt;bindingNavigatorMoveNextItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;фамилияLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="фамилияTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 68</value>
+  </data>
+  <data name="&gt;&gt;имяTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager1.Type" xml:space="preserve">
+    <value>Forma.Database1DataSet1TableAdapters.TableAdapterManager, Database1DataSet11.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="фамилияLabel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -606,24 +810,23 @@
   <data name="bindingNavigatorMoveFirstItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
   </data>
-  <data name="дата_рожденияTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+  <data name="&gt;&gt;idLabel1.Name" xml:space="preserve">
+    <value>idLabel1</value>
   </data>
-  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
-    <value>Forma.Database1DataSetTableAdapters.TableAdapterManager, Database1DataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="адресTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 180</value>
   </data>
-  <data name="&gt;&gt;bindingNavigatorMoveFirstItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="idLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 40</value>
   </data>
-  <data name="bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;idLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tableBindingNavigatorSaveItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAExJREFUOE9joAr49u3bf1IxVCsEgAWC58Dxh/cf4RhZDETHTNiHaQgpBoAwzBCo
-        dtINAGGiDUDGyGpoawAxeNSAQWkAORiqnRLAwAAA9EMMU8Daa3MAAAAASUVORK5CYII=
-</value>
+  <data name="имяLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="дата_рожденияDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
   </data>
   <data name="bindingNavigatorMoveNextItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
@@ -634,8 +837,8 @@
   <data name="адресLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 13</value>
   </data>
-  <data name="bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="дата_рожденияTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
   </data>
   <data name="idLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -643,14 +846,23 @@
   <data name="&gt;&gt;idLabel.Name" xml:space="preserve">
     <value>idLabel</value>
   </data>
+  <data name="фамилияLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 71</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager1.Name" xml:space="preserve">
+    <value>tableAdapterManager1</value>
+  </data>
   <data name="tableBindingNavigatorSaveItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;дата_рожденияDateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>325, 448</value>
   </data>
-  <data name="&gt;&gt;bindingNavigatorMovePreviousItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;фамилияTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="idTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 46</value>
@@ -658,8 +870,15 @@
   <data name="фамилияTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
   </data>
-  <data name="&gt;&gt;bindingNavigatorCountItem.Name" xml:space="preserve">
-    <value>bindingNavigatorCountItem</value>
+  <data name="tableBindingNavigatorSaveItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAExJREFUOE9joAr49u3bf1IxVCsEgAWC58Dxh/cf4RhZDETHTNiHaQgpBoAwzBCo
+        dtINAGGiDUDGyGpoawAxeNSAQWkAORiqnRLAwAAA9EMMU8Daa3MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="адресLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 183</value>
   </data>
   <data name="&gt;&gt;дата_рожденияLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -670,8 +889,8 @@
   <data name="имяTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 102</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 248</value>
+  <data name="idLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
   </data>
   <data name="отчествоTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -679,8 +898,11 @@
   <data name="&gt;&gt;фамилияLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="имяLabel.Text" xml:space="preserve">
-    <value>Имя:</value>
+  <data name="idTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="bindingNavigatorMovePreviousItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -691,14 +913,20 @@
         08g3AARUPCZQZsBgBQwMANAUYJgEulBVAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="дата_рожденияLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 189</value>
+  <data name="&gt;&gt;дата_рожденияDateTimePicker.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="отчествоTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 130</value>
+  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
+    <value>Forma.Database1DataSetTableAdapters.TableAdapterManager, Database1DataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
   <data name="bindingNavigatorCountItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 22</value>
+  </data>
+  <data name="&gt;&gt;адресLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;bindingNavigatorMoveLastItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -706,8 +934,14 @@
   <data name="&gt;&gt;дата_рожденияLabel.Name" xml:space="preserve">
     <value>дата_рожденияLabel</value>
   </data>
-  <data name="&gt;&gt;фамилияTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="имяTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 96</value>
+  </data>
+  <data name="фамилияLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;bindingNavigatorMoveFirstItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="адресTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
@@ -727,8 +961,17 @@
   <data name="фамилияLabel.Text" xml:space="preserve">
     <value>Фамилия:</value>
   </data>
-  <data name="&gt;&gt;bindingNavigatorPositionItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;фамилияLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;отчествоLabel1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="отчествоLabel.Text" xml:space="preserve">
+    <value>Отчество:</value>
+  </data>
+  <data name="&gt;&gt;отчествоTextBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;tableTableAdapter.Name" xml:space="preserve">
     <value>tableTableAdapter</value>
@@ -739,11 +982,20 @@
   <metadata name="tableTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>339, 17</value>
   </metadata>
+  <metadata name="имяLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
   <metadata name="дата_рожденияLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <metadata name="tableBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>197, 56</value>
+  </metadata>
+  <metadata name="адресLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="tableTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>29, 95</value>
   </metadata>
   <metadata name="idLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -753,6 +1005,9 @@
   </metadata>
   <metadata name="tableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>173, 17</value>
+  </metadata>
+  <metadata name="tableAdapterManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 95</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>51</value>
@@ -769,13 +1024,31 @@
   <metadata name="имяLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
+  <metadata name="дата_рожденияLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="database1DataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 56</value>
+  </metadata>
   <metadata name="database1DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="фамилияLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="tableBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>545, 56</value>
+  </metadata>
+  <metadata name="idLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
   <metadata name="адресLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="отчествоLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
 </root>
